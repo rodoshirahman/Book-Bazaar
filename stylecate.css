@@ -1,0 +1,163 @@
+*{
+ margin:0px;
+ padding:0px;
+}
+.container{
+    background-color: rgba(0,0,0,.8);
+     width:100%;
+     height:1300px;
+}
+.menu{
+    width:100%;
+    height:60PX;
+    display:block;
+    background:rgba(0,0,0,.6);
+   
+}
+.menu div{
+   display:inline-block;
+  
+}
+
+.menu ul li{
+   display:inline-block;
+   padding:50px;
+   padding-top:0px;
+   padding-bottom:0px;
+   color: white;
+}
+.leftbar ul li:hover{
+    color:white;
+    background:rgba(0,0,0,.1);
+   -webkit-transform:scale(1.5);
+}
+.leftbar{
+    float:left;
+    font :30px white Tahoma;
+    padding:15px;
+    padding-top:10px;
+    color: white;
+}
+
+.rightbar ul li:hover{
+    color:white;
+    background:rgba(0,0,0,.1);
+    -webkit-transform:scale(1.5);
+}
+.rightbar{
+    float:right;
+    font :15px white Tahoma;
+    padding:15px; padding-top:15px;
+    color: white;
+}
+
+.search{
+     margin:auto;
+     margin-top: 20px;
+     height:60px;
+     width:600px;
+     
+     border:4px solid black;
+     border-radius:40px;
+     background:rgba(255,255,255,.6);
+}
+
+.gallery1{
+     margin:auto;
+     margin-left: 150px;
+     width:1200px;
+     height:700px;
+     display:block;
+     padding:60px;
+
+}
+.gallery1 div{
+        display:inline-block;
+}
+.gallery1 div a h2{
+        background:rgba(255,255,255,.7);
+        padding:10px;
+        border-radius:40px;
+        margin-top:10px;
+        text-align: center;
+        
+}
+.gallery1 img:hover{
+    -webkit-transform:scale(1.2);
+}
+
+.gallery1 img{
+  padding: 10px;
+  margin-left: 30px;
+}
+
+.gallery1 div a h2:hover{
+    background:rgba(255,255,255,.9);
+    padding:10px;
+    border-radius:40px;
+    margin-top:10px;
+        
+}
+
+
+.gallery1 a{
+  text-decoration:none;
+}
+
+.header{
+    width:400px;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.footer{
+    display: block;
+    width: 100%;
+    height: 250px;
+    background: black;
+    font-size: 30px;
+    float: left;
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    margin-top: 0px;
+}
+.footer div {
+    display: inline-block;
+    float: left;
+    padding: 20px;
+
+}
+.footer footer {
+    display: inline-block;
+    float: right;
+    bottom: 50px;
+    margin-right: 20px;
+    font: 20px red Tahoma;
+
+}
+
+.follow {
+    display: inline-block;
+  width: 60px;
+  height: 90px;
+  margin: 10px;
+    
+
+
+}
+.follow a img{
+    float: right;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    margin:auto;
+    opacity: 0.7;
+}
+.follow a img:hover{
+    opacity: 1;
+    -webkit-transform:scale(1.2);
+    background-color: black;
+    border-radius: 40px;
+}

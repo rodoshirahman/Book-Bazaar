@@ -1,0 +1,11 @@
+To run this project-
+
+1. Click on "home.html" and continue with different pages. PHP pages for whole project is not available. Only log in and registration pages are dynamic.
+
+2. Create a database named ‘registration’, and a table named ‘users’. Connect PHP.
+
+3. Create table named "cart".
+
+
+
+This project was built from scratch.....
